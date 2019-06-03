@@ -1,6 +1,6 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
+v2.0 | 20110126
+License: none (public domain)
 */
 
 html, body, div, span, applet, object, iframe,
@@ -16,149 +16,155 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+display: block;
 }
 body {
-	line-height: 1;
+line-height: 1;
 }
 ol, ul {
-	list-style: none; 
+list-style: none; 
 }
 blockquote, q {
-	quotes: none;
+quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+content: '';
+content: none;
 } 
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+border-collapse: collapse;
+border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+box-sizing: border-box;
 }
 
 html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+height: 100%;
+font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+font-family: 'Bangers', cursive;
+letter-spacing: 1px;
+margin-bottom: 15px;
 }
 
 /* Your code starts here! */
 .main-container{
-	width: 900px;
-	margin: 0 auto;
+width: 900px;
+margin: 0 auto;
 }
 /* line break */
 .br{
-	border-bottom: 1px black solid;
-	margin: 50px 0;
+border-bottom: 1px black solid;
+margin: 50px 0;
 }
 .br-2{
-	border-bottom: 1px black solid;
-	margin: 48px 0 40px;
+border-bottom: 1px black solid;
+margin: 48px 0 40px;
 }
 /* Header section */
 header{
-	height: 50px;
-	position: relative;
+height: 50px;
+position: relative;
 }
 header nav{
-	display: inline-block;
-	
-	position: absolute;
-	margin: 15px 0 0 -30px
+display: inline-block;
+
+position: absolute;
+margin: 15px 0 0 -30px;
+
+}
+header nav div{
+margin: 0 32px;
 }
 header nav a{
-	margin: 0 32px;
-	font-size: 14px;
-	text-decoration: none;
-	color: #E1E1E1;
-	
+font-size: 14px;
+text-decoration: none;
+color: rgb(168, 164, 164);
+cursor: pointer;
+margin: 0 32px;
+
 }
 
+
 header div {
-	display: inline-block;
-	position: absolute;
-	
+display: inline-block;
+position: absolute;
+
 
 }
 header div img {
-	
-		margin: 6px 0 0 691px ;
+
+	margin: 6px 0 0 691px ;
 }
 /* SECTION BEGGINGS */
 
 section {
-	margin: 60px 0 0 0px;
-	width: 50%;
-	display: inline-block;
-	/* position: relative; */
-	
-}
-section .section-text{
-	width: 50%;
-	height: 00px;
-	
-}
-section .section-text .first{
-	margin: 55px 0 5px 80px;
-	font-size: 80px;
-	text-align: center
-}
-section .section-text .second{
-	margin: -10px 0 0px 200px;
-	font-size: 80px;
-	text-align: center
-}
-section .section-text .third{
-	/* background: blue; */
-	margin: -5px 0 0 125px;
-	font-size: 80px;
-	text-align: center
-}
-section .section-text p{
-	/* background: blue; */
-	margin: 15px 0 -400px 150px;
-	padding: 0px 0 0 0;
-	width: 175px;
-	height: 35px;
-	font-size: 16px;
-	text-align: center;
-	border: solid black 1px;
-	display: inline-block;
-	line-height: 30px;
+margin: 60px 0 0 0px;
+width: 50%;
+display: inline-block;
+/* position: relative; */
 
 }
- .image{
-	
-	display: inline-block;
-	width: 49%;
-	position: absolute;
+section .section-text{
+width: 50%;
+height: 00px;
+
+}
+section .section-text .first{
+margin: 55px 0 5px 80px;
+font-size: 80px;
+text-align: center
+}
+section .section-text .second{
+margin: -10px 0 0px 200px;
+font-size: 80px;
+text-align: center
+}
+section .section-text .third{
+/* background: blue; */
+margin: -5px 0 0 125px;
+font-size: 80px;
+text-align: center
+}
+section .section-text p{
+/* background: blue; */
+margin: 15px 0 -400px 150px;
+padding: 0px 0 0 0;
+width: 175px;
+height: 35px;
+font-size: 16px;
+text-align: center;
+border: solid black 1px;
+display: inline-block;
+line-height: 30px;
+
+}
+.image{
+
+display: inline-block;
+width: 49%;
+position: absolute;
 }
 
 .image img{
-	margin: 60px 0 0 45px;
-	
+margin: 60px 0 0 45px;
+
 }
 /* Break Line */
 .br-1{
@@ -167,58 +173,58 @@ margin: 134px 0 0 0;
 
 /* content section */
 .features{
-	margin: 40px 0 0 0;
-	width: 49%;
-	display: inline-block;
+margin: 40px 0 0 0;
+width: 49%;
+display: inline-block;
 }
 .features p{
 line-height: 18px;
 }
 
 .about{
-	margin: 40px 0 0 0;
-	width: 48%;
-	display: inline-block;
+margin: 40px 0 0 0;
+width: 48%;
+display: inline-block;
 }
 .about p{
-	line-height: 18px;
-	}
+line-height: 18px;
+}
 
 .middle-img{
-	margin: 35px 0 0 0;
+margin: 35px 0 0 0;
 }
 .spv{
-	margin-top: 38px;
+margin-top: 38px;
 }
 .services{
-	width:32%;
-	display: inline-block;
+width:32%;
+display: inline-block;
 }
 .services p{
-	line-height: 18px;
-	}
-	
+line-height: 18px;
+}
+
 .product{
-	width:32%;
-	display: inline-block;
+width:32%;
+display: inline-block;
 }
 .product p{
-	line-height: 18px;
-	}
+line-height: 18px;
+}
 
 .vision{
-	width:32%;
-	display: inline-block;
+width:32%;
+display: inline-block;
 }
 .vision p{
-	line-height: 18px;
+line-height: 18px;
 }
 
 /* footer section */
 
 
 .phone{
-	padding: 20px 0
+padding: 20px 0
 }
 
 .copyright {
